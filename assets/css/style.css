@@ -1,0 +1,179 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+header {
+	background-color: #fff;
+	border-bottom: solid 1px #ccc;
+	width: 1200px;
+	margin: 0 auto;
+}
+h1, h2, h3, h4 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-weight: bold;
+}
+h1 {
+	width: 220px;
+	height: 60px;
+	background-color: darkorange;
+	text-align: center;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 120px;
+	border-radius: 20px 20px 0 0;
+	font-size: 1.2em;
+	line-height: 3.2em;
+	text-shadow: 0 0 6px brown;
+}
+.whiteTxt {
+	color: #fff;
+}
+nav {
+	float: right;
+	margin: 45px 120px 0 0;
+}
+ul li {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	display: inline;
+	font-size: 0.8em;
+	padding: 10px;
+}
+a {
+	color: #999;
+	text-decoration: none;	
+}
+a:hover {
+	color: darkorange;
+}
+a:active {
+	color: darkorange;
+}
+a:visited {
+	color: #999;
+}
+#container {
+	background-image:url('../images/sayagata-400px.png');
+	width: 1200px;
+	margin: 0 auto;
+	/*padding: 30px 0;*/
+}
+#content {
+	width: 960px;
+	margin: 0 auto;
+}
+section {
+	width: 610px;
+	margin: 25px 0;
+	padding: 20px;
+	display: inline-block;
+	border: solid 1px #ddd;
+	box-shadow: 5px 5px 6px #999;
+}
+.whiteBG {
+	background-color: #fff;
+}
+h2 {
+	font-size: 1.1em;
+}
+.teal {
+	color: darkorange;
+}
+hr {
+	margin: 15px 0;
+}
+#bioPic {
+	float:left;
+	padding-right: 10px;
+}
+p {
+	line-height: 1.5em;
+	margin-bottom: 10px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 0.9em;
+	color: #777;
+}
+#leftCol {
+	display:inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-left: 20px;;
+}
+aside {
+	width: 230px;
+	margin-top: 25px;
+	padding: 25px 20px 5px;
+	text-align: center;
+	border: solid 1px #ddd;
+	box-shadow: 5px 5px 6px #999;
+}
+h3 {
+	/*padding-bottom: 15px;*/
+}
+#social {
+	padding: 20px;
+}
+.social {
+	height: 40px;
+	padding: 2px;
+}
+.social:hover {
+	opacity: 0.7;
+}
+.puffBox {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+	color: darkorange;
+}
+.puffTxt {
+	width:150px;
+	text-align: left;
+	margin: 5px;
+	margin-left:70px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.puffTxt h3 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin-top: 10px;
+	padding-bottom: 0;
+	font-size: 0.9em;
+}
+ol li {
+	line-height: 1.2em;
+	font-size: 0.85em;
+	color: #666;
+}
+footer {
+	background-color: #666;
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+	border-top: solid 4px darkorange;
+	text-align: center;
+}
+footer p {
+	margin-top: 22px;
+	font-size: 0.75em;
+}
+
+/******* FORM *******/
+input {
+	width: 610px;
+	height: 20px;
+}
+textarea {
+	width: 605px;
+	height: 200px;
+}
+#submit, #reset {
+	width: 110px;
+	height: 35px;
+	border: none;
+	background-color: darkorange;
+	margin-right: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+#submit:hover, #reset:hover {
+	opacity: 0.7;
+}
