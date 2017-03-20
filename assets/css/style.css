@@ -107,11 +107,12 @@ aside {
 #social {
 	padding: 20px;
 }
-.social {
+#social a img {
 	height: 50px;
+	width: 50px;
 	padding: 5px;
 }
-.social:hover {
+#social a img:hover {
 	opacity: 0.7;
 }
 .puffBox {
