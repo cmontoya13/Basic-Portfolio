@@ -48,14 +48,10 @@ a:hover {
 a:active {
 	color: darkorange;
 }
-a:visited {
-	color: #999;
-}
 #container {
 	background-image:url('../images/sayagata-400px.png');
 	width: 1200px;
 	margin: 0 auto;
-	/*padding: 30px 0;*/
 }
 #content {
 	width: 960px;
@@ -81,9 +77,11 @@ h2 {
 hr {
 	margin: 15px 0;
 }
-#bioPic {
+#mainPic {
 	float:left;
 	padding-right: 10px;
+	width: 160px;
+	height: 200px;
 }
 p {
 	line-height: 1.5em;
@@ -92,7 +90,7 @@ p {
 	font-size: 0.9em;
 	color: #777;
 }
-#leftCol {
+#rightCol {
 	display:inline-block;
 	vertical-align: top;
 	text-align: center;
@@ -106,15 +104,12 @@ aside {
 	border: solid 1px #ddd;
 	box-shadow: 5px 5px 6px #999;
 }
-h3 {
-	/*padding-bottom: 15px;*/
-}
 #social {
 	padding: 20px;
 }
 .social {
-	height: 40px;
-	padding: 2px;
+	height: 50px;
+	padding: 5px;
 }
 .social:hover {
 	opacity: 0.7;
@@ -156,7 +151,37 @@ footer p {
 	font-size: 0.75em;
 }
 
-/******* FORM *******/
+/******* PORTFOLIO SPECIFIC *******/
+section article {
+	display: inline-block;
+	margin: 12px 0;
+	width: 290px;
+	height: 220px;
+	overflow: hidden;
+}
+article a img {	
+	width: 300px;
+}
+section article:nth-of-type(2n+2){
+	float: right;
+}
+section article div {
+	position: relative;
+	bottom: 70px;
+	background-color: darkorange;
+}
+.portTitles {
+	color: #fff;
+	margin-top: 0;
+	line-height: 1.1em;
+	padding: 10px;
+}
+span {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+/******* FORM SPECIFIC *******/
 input {
 	width: 610px;
 	height: 20px;
