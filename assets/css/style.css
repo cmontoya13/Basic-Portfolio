@@ -1,7 +1,3 @@
-html, body {
-	height: 100%;
-	margin: 0;
-}
 header {
 	background-color: #fff;
 	border-bottom: solid 1px #ccc;
@@ -82,6 +78,10 @@ hr {
 	padding-right: 10px;
 	width: 160px;
 	height: 200px;
+}
+section h3 {
+	margin-bottom: 5px;
+	color: #666;
 }
 p {
 	line-height: 1.5em;
