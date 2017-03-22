@@ -160,22 +160,23 @@ footer p {
 }
 
 /******* PORTFOLIO SPECIFIC *******/
-section article {
+section div {
+	position: relative;
 	display: inline-block;
 	margin: 12px 0;
 	width: 290px;
 	height: 220px;
 	overflow: hidden;
 }
-article a img {	
-	width: 300px;
-}
-section article:nth-of-type(2n+2){
+section div:nth-of-type(2n+2){
 	float: right;
 }
-section article div {
+div a img {	
+	width: 300px;
+}
+section div div {height: 50px; display: block;
 	position: relative;
-	bottom: 70px;
+	bottom: 80px;
 	background-color: darkorange;
 }
 .portTitles {
