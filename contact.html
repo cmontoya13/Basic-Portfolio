@@ -28,14 +28,14 @@
 				<h2 class="teal">Contact</h2>
 				<hr>
 				<form action="#" method="post" name="someForm">
-					<p>Name:<br>					
-					<input type="text" name="fullName" maxlength="50" placeholder="John Doe" required></p>
+					<label for="fullName">Name:</label>	
+					<input type="text" name="fullName" id="fullName" maxlength="50" placeholder="John Doe" required>
 
-					<p>Email:<br>
-					<input type="text" name="email" maxlength="50" placeholder="name@domain.com" required></p>
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email" maxlength="50" placeholder="name@domain.com" required>
 					
-					<p>Message:<br>
-            		<textarea name="message"></textarea></p>
+					<label for="email">Message:</label>
+            		<textarea name="message" name="message"></textarea>
 
 					<input type="submit" id="submit" value="Submit">
 					<input type="reset" value="Reset" id="reset">
