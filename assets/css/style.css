@@ -104,8 +104,11 @@ aside {
 	border: solid 1px #ddd;
 	box-shadow: 5px 5px 6px #999;
 }
+h3 {
+	line-height: 1.5em;
+}
 aside h3 {
-	line-height: 0.8em;
+	line-height: 0.8;
 }
 #social {
 	padding: 10px;
