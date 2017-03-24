@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
 h1 {
 	width: 220px;
 	height: 60px;
-	background-color: darkorange;
+	background-color: #4aaaa5;
 	text-align: center;
 	display: inline-block;
 	margin-top: 20px;
@@ -24,7 +24,7 @@ h1 {
 	border-radius: 20px 20px 0 0;
 	font-size: 1.2em;
 	line-height: 3.2em;
-	text-shadow: 0 0 6px brown;
+	text-shadow: 0 0 6px #03403d;
 }
 .whiteTxt {
 	color: #fff;
@@ -43,10 +43,10 @@ a {
 	text-decoration: none;	
 }
 a:hover {
-	color: darkorange;
+	color: #4aaaa5;
 }
 a:active {
-	color: darkorange;
+	color: #4aaaa5;
 }
 #container {
 	background-image:url('../images/sayagata-400px.png');
@@ -74,7 +74,7 @@ h2 {
 	font-size: 1.1em;
 }
 .teal {
-	color: darkorange;
+	color: #4aaaa5;
 }
 hr {
 	margin: 15px 0;
@@ -125,7 +125,7 @@ aside h3 {
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 30px;
-	color: darkorange;
+	color: #4aaaa5;
 }
 .puffTxt {
 	width:150px;
@@ -147,7 +147,7 @@ footer {
 	width: 1200px;
 	height: 60px;
 	margin: 0 auto;
-	border-top: solid 4px darkorange;
+	border-top: solid 4px #4aaaa5;
 	text-align: center;
 }
 footer p {
@@ -173,7 +173,7 @@ div a img {
 section div div {height: 50px; display: block;
 	position: relative;
 	bottom: 80px;
-	background-color: darkorange;
+	background-color: #4aaaa5;
 }
 .portTitles {
 	color: #fff;
@@ -205,7 +205,7 @@ textarea {
 	width: 110px;
 	height: 35px;
 	border: none;
-	background-color: darkorange;
+	background-color: #4aaaa5;
 	margin-right: 5px;
 	color: #fff;
 	font-weight: bold;
